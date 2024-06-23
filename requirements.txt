@@ -7,3 +7,4 @@ matplotlib
 numpy
 tqdm
 astropy
+opencv-python-headless

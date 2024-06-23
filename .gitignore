@@ -167,3 +167,5 @@ cython_debug/
 /data/
 /tf_data/
 /models/
+/test_data/
+predictions.csv
