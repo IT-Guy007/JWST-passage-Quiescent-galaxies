@@ -44,10 +44,15 @@ JWST-passage-Quiescent-galaxies
 
 # Model creation
 The [notebook](notebooks/model_builder_sequential.ipynb)  has all the logic required for creating the model. Modify the needed variables for needed extra configuration.
-Afterward this [notebook](notebooks/model_evaluation_and_analysis.ipynb) can be used to analyse the created model.
+
+# Model analytics
+The [notebook](notebooks/model_builder_analysis.ipynb) has all the logic for evaluating the model and creating the needed plots for analysis.
 
 # Running predictions
 The [notebook](notebooks/model_predictor_batch.ipynb) has all the logic for using the model to create predictions of fits files. It generates a csv with the predictions stored for further analysis and if activated a separate directory with the images desired above a certain accuracy.
+
+# Analytics of the predictions
+The [notebook](notebooks/model_predictor_analytics.ipynb) has all the logic for evaluating the predictions and creating the needed plots for analysis.
 
 # License
 This project is licensed under the MIT License see the [LICENSE](LICENSE) file for details.
