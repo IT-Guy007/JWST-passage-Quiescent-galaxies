@@ -28,7 +28,9 @@ pip install -r requirements.txt
 JWST-passage-Quiescent-galaxies
 ├── data
 │   ├── images_training_rev1
-│   └── training_solutions_rev1.csv
+│   ├── training_solutions_rev1.csv
+│   └── converted
+│
 ├── tf_data
 │   ├── one_one
 │   └── one_two
@@ -53,6 +55,9 @@ The [notebook](notebooks/model_predictor_batch.ipynb) has all the logic for usin
 
 # Analytics of the predictions
 The [notebook](notebooks/model_predictor_analytics.ipynb) has all the logic for evaluating the predictions and creating the needed plots for analysis.
+
+# Downloading model
+It is also possible to download a pre-trained model for this project, which are the steps done in the [builder notebook](notebooks/model_builder_sequential.ipynb). The model is available at [Hugging Face](https://huggingface.co/IT-Guy007/AstroVisionV1). Move both files in data to the local model folder of the project.
 
 # License
 This project is licensed under the MIT License see the [LICENSE](LICENSE) file for details.
