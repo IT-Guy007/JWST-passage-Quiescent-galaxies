@@ -32,8 +32,6 @@ JWST-passage-Quiescent-galaxies
 │   └── converted
 │
 ├── tf_data
-│   ├── one_one
-│   └── one_two
 └── models
 ```
 5. Download the data from the Kaggle competition [Galaxy Zoo - The Galaxy Challenge](https://www.kaggle.com/c/galaxy-zoo-the-galaxy-challenge/data) and place it in the data folder
